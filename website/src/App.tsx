@@ -2,10 +2,12 @@ import heroImg from './assets/cv-bild-korrekt.jpg'
 import './App.css'
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
+      <head>
+        <title>Björn Shepard</title>
+      </head>
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="" height="" alt="" />
@@ -15,23 +17,11 @@ function App() {
             <li>
               <h1>Björn Shepard</h1>
             </li>
-            {/* <li>
-              <h2>Student Civ. Ing. Datateknik, LTH</h2>
-            </li> */}
              <li>
               <h2>M.Sc. Student in Computer Science & Engineering at LTH</h2>
             </li>
-            
-
           </ul>
         </div>
-        {/* <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button> */}
       </section>
 
       <div className="ticks"></div>
@@ -45,6 +35,8 @@ function App() {
           <h2>Professional experience</h2>
           <h2>Education</h2>
         </div>
+
+
         <div id="social">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
@@ -64,14 +56,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="mailto:contact@bjornshepard.se" target="_blank">
-                {/*<svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                   <use href="public/email-icon.svg"></use> // consider puttin in spreadsheet
-                </svg>*/}
+              <a href="mailto:contact@bjornshepard.com" target="_blank">
                 <img 
                   src="/email-icon.svg" 
                   className="button-icon" 
@@ -92,30 +77,6 @@ function App() {
                 LinkedIn
               </a>
             </li>
-            {/* <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li> 
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li> */}
           </ul>
         </div>
       </section>
