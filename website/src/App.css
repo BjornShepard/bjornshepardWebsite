@@ -95,6 +95,7 @@
       width: 18px;
     }
   }
+  
 
   @media (max-width: 1024px) {
     margin-top: 20px;
@@ -141,4 +142,23 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+
+.collapsible-header {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 20px;
+  width: 100%;
+}
+
+.collapsible-header h2 {
+  margin: 0;
+}
+
+.button-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
 }
