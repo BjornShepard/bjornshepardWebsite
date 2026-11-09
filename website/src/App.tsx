@@ -10,7 +10,7 @@ function App() {
 
       <section id="center">
         <div className="hero">
-          <img src={heroImg} className="base" width="" height="" alt="" />
+          <img src={heroImg} className="base" />
         </div>
         <div>
           <ul>
